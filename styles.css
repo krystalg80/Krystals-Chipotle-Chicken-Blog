@@ -3,7 +3,7 @@ body {
 }
 
 .chicken-pic {
-    width: 500px;
+    width: 800px;
 }
 
 ul {
@@ -18,7 +18,7 @@ li {
 }
 
 .colorful-text {
-    color: coral;
+    color: #ffd6c7;
 }
 
 .chipotle-text {
@@ -26,5 +26,23 @@ li {
 }
 
 .nav-click {
-    color: blue; /* Change the color to your desired color */
+    color: #ffd6c7; 
+}
+
+.newsletter-signup {
+    background-color: #ffd6c7; 
+    padding: 20px; 
+}
+
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .section1 img {
+        max-width: 100%;
+    }
+    .section2 ul {
+        padding-left: 0;
+    }
+    .newsletter-signup {
+        margin-top: 20px;
+    }
 }

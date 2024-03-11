@@ -10,26 +10,31 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Recipe Website</a>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav text-center align-items-center">
-                <li class="nav-item">
-                    <a class="nav-link nav-click" href="https://www.allrecipes.com/">Click me for more Recipes!</a>
-                </li>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                
             </ul>
         </div>
-    
+        <div class="ml-auto">
+            <a class="nav-link nav-click" href="https://www.allrecipes.com/">Click me for more Recipes!</a>
+        </div>
     </nav>
 
     <div class="container mt-4">
-        <section id="featured-recipes">
+        <section id="intro">
             <h2 class="mb-2">Krystal's Chipotle Chicken</h2>
             <h5> This is a delicious Chipotle Chicken marinated to perfection by Krystal. Get ready to dive into a burst of flavors with this simple and easy recipe!</p>
             <div class="section1">
                 <img src="https://getinspiredeveryday.com/wp-content/uploads/2021/04/Chipotle-Chicken-Copycat-Recipe-Get-Inspired-Everyday-8.jpg" class="card-img-top chicken-pic" alt="Krystal's Chipotle Chicken">
             </div>
+            <h6> Arguably even better than the original restaurant favorite! The chicken can sit in the marinade overnight for an easy weeknight dinner. Cook the chicken on the stove top, in the oven, on the grill, or in the air fryer, and then use it in your favorite meal</h6>
         </section>
 
-        <section id="popular-recipes" class="mt-5">
+        <section id="recipe" class="mt-5">
+            <button onclick="window.print()" class="btn btn-primary">Print Recipe</button>
             <h2 class="mb-4">Ingredients</h2>
             <div class="section2">
                 <!-- Add popular recipe cards here -->
@@ -47,7 +52,7 @@
             </ul>
         </section>
 
-        <section id="newsletter-signup" class="mt-5">
+        <section id="steps" class="mt-5">
             <h2 class="mb-4">Directions</h2>
             <div class="directions"></div>
             <h4>Step 1</h5>
@@ -71,11 +76,23 @@
 
     <footer class="footer mt-5 py-3 bg-light">
         <div class="container">
-             <h3>Nutrition Facts</h3>
-             <p>Calories: 400</p>
-             <p>Fat: 10g</p>
-             <p>Protein: 20g</p>
-             <p>Carbs: 22g</p>
+            <h3>Nutrition Facts</h3>
+            <p>Calories: 400</p>
+            <p>Fat: 10g</p>
+            <p>Protein: 20g</p>
+            <p>Carbs: 22g</p>
+    
+            <!-- Newsletter Sign-up Form -->
+            <div class="newsletter-signup">
+                <h3>Sign Up for Our Newsletter to be notified with more Recipies!</h3>
+                <form action="newsletter_signup.php" method="post">
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
         </div>
     </footer>
 
