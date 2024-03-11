@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+.chicken-pic {
+    width: 500px;
+}
+
+ul {
+    margin-top: 0; /* Remove default margin */
+    padding-left: 275px; /* Add padding to create space for bullets */
+    padding-right: 275px;
+}
+
+li {
+    margin-bottom: 5px; /* Adjust margin between list items */
+    font-size: 20px;
+}
+
+.colorful-text {
+    color: coral;
+}
+
+.chipotle-text {
+    color: deeppink;
+}
+
+.nav-click {
+    color: blue; /* Change the color to your desired color */
+}

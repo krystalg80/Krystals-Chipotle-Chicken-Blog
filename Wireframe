@@ -1,0 +1,46 @@
+-----------------------------------------------------
+|                    Navbar                         |
+-----------------------------------------------------
+|              Featured Recipes                    |
+-----------------------------------------------------
+|   Recipe 1   |   Recipe 2   |   Recipe 3         |
+|   (Image)    |   (Image)    |   (Image)          |
+|  Title       |  Title       |  Title             |
+|  Description |  Description |  Description       |
+-----------------------------------------------------
+|             Popular Recipes                      |
+-----------------------------------------------------
+|   Recipe 4   |   Recipe 5   |   Recipe 6         |
+|   (Image)    |   (Image)    |   (Image)          |
+|  Title       |  Title       |  Title             |
+|  Description |  Description |  Description       |
+-----------------------------------------------------
+|                  Newsletter Signup               |
+-----------------------------------------------------
+|           Footer with Social Media Links          |
+-----------------------------------------------------
+
+-----------------------------------------------------
+|                    Navbar                         |
+-----------------------------------------------------
+|                    Recipe                         |
+-----------------------------------------------------
+|  Recipe Title                                     |
+|  (Image)                                          |
+|  Ingredients:                                     |
+|  - Ingredient 1                                   |
+|  - Ingredient 2                                   |
+|  - Ingredient 3                                   |
+|  ...                                              |
+|  Instructions:                                    |
+|  1. Instruction 1                                 |
+|  2. Instruction 2                                 |
+|  3. Instruction 3                                 |
+|  ...                                              |
+|  Serving Size:                                    |
+|  (Dropdown)                                       |
+-----------------------------------------------------
+|           Related Recipes or Comments             |
+-----------------------------------------------------
+|                  Footer with Links                |
+-----------------------------------------------------
